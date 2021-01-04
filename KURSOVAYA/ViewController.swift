@@ -11,6 +11,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        IOSSecuritySuite.amIDebugged()
         // Do any additional setup after loading the view.
     }
 

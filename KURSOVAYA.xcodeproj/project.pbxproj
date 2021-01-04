@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,24 @@
 		2754579D25A2362E00885D71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2754579B25A2362E00885D71 /* Main.storyboard */; };
 		2754579F25A2363000885D71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2754579E25A2363000885D71 /* Assets.xcassets */; };
 		275457A225A2363000885D71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 275457A025A2363000885D71 /* LaunchScreen.storyboard */; };
+		275457B525A236B700885D71 /* ProxyChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275457AA25A236B500885D71 /* ProxyChecker.swift */; };
+		275457B625A236B700885D71 /* ReverseEngineeringToolsChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275457AB25A236B500885D71 /* ReverseEngineeringToolsChecker.swift */; };
+		275457B725A236B700885D71 /* RuntimeHookChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275457AC25A236B600885D71 /* RuntimeHookChecker.swift */; };
+		275457B825A236B700885D71 /* DebuggerChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275457AD25A236B600885D71 /* DebuggerChecker.swift */; };
+		275457B925A236B700885D71 /* IOSSecuritySuite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275457AE25A236B600885D71 /* IOSSecuritySuite.swift */; };
+		275457BA25A236B700885D71 /* FishHookChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275457B025A236B600885D71 /* FishHookChecker.swift */; };
+		275457BB25A236B700885D71 /* IntegrityChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275457B125A236B600885D71 /* IntegrityChecker.swift */; };
+		275457BC25A236B700885D71 /* EmulatorChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275457B225A236B600885D71 /* EmulatorChecker.swift */; };
+		275457BD25A236B700885D71 /* JailbreakChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275457B325A236B600885D71 /* JailbreakChecker.swift */; };
+		275457BE25A236B700885D71 /* MSHookFunctionChecker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275457B425A236B700885D71 /* MSHookFunctionChecker.swift */; };
+		275457C925A2665A00885D71 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275457C825A2665A00885D71 /* NetworkManager.swift */; };
+		275457CC25A2669C00885D71 /* ModelUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275457CB25A2669C00885D71 /* ModelUser.swift */; };
+		275457CF25A266E800885D71 /* VulnerabilityCheckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275457CE25A266E800885D71 /* VulnerabilityCheckViewController.swift */; };
+		275457D925A3571400885D71 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275457D825A3571400885D71 /* LoginViewController.swift */; };
+		275457DC25A37BD200885D71 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275457DB25A37BD100885D71 /* RegisterViewController.swift */; };
+		275457DF25A37E6B00885D71 /* UsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275457DE25A37E6B00885D71 /* UsersTableViewController.swift */; };
+		275457E225A3909900885D71 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275457E125A3909900885D71 /* UserTableViewCell.swift */; };
+		5B4379561CE8AB11D1049EAF /* Pods_KURSOVAYA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4BA83283720436B3FE41560 /* Pods_KURSOVAYA.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +42,27 @@
 		2754579E25A2363000885D71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		275457A125A2363000885D71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		275457A325A2363000885D71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		275457AA25A236B500885D71 /* ProxyChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProxyChecker.swift; sourceTree = "<group>"; };
+		275457AB25A236B500885D71 /* ReverseEngineeringToolsChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReverseEngineeringToolsChecker.swift; sourceTree = "<group>"; };
+		275457AC25A236B600885D71 /* RuntimeHookChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RuntimeHookChecker.swift; sourceTree = "<group>"; };
+		275457AD25A236B600885D71 /* DebuggerChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebuggerChecker.swift; sourceTree = "<group>"; };
+		275457AE25A236B600885D71 /* IOSSecuritySuite.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IOSSecuritySuite.swift; sourceTree = "<group>"; };
+		275457AF25A236B600885D71 /* IOSSecuritySuite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IOSSecuritySuite.h; sourceTree = "<group>"; };
+		275457B025A236B600885D71 /* FishHookChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FishHookChecker.swift; sourceTree = "<group>"; };
+		275457B125A236B600885D71 /* IntegrityChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IntegrityChecker.swift; sourceTree = "<group>"; };
+		275457B225A236B600885D71 /* EmulatorChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmulatorChecker.swift; sourceTree = "<group>"; };
+		275457B325A236B600885D71 /* JailbreakChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JailbreakChecker.swift; sourceTree = "<group>"; };
+		275457B425A236B700885D71 /* MSHookFunctionChecker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MSHookFunctionChecker.swift; sourceTree = "<group>"; };
+		275457C825A2665A00885D71 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		275457CB25A2669C00885D71 /* ModelUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelUser.swift; sourceTree = "<group>"; };
+		275457CE25A266E800885D71 /* VulnerabilityCheckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VulnerabilityCheckViewController.swift; sourceTree = "<group>"; };
+		275457D825A3571400885D71 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		275457DB25A37BD100885D71 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		275457DE25A37E6B00885D71 /* UsersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersTableViewController.swift; sourceTree = "<group>"; };
+		275457E125A3909900885D71 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		A4AE0EC4D861973AB4DDE2F9 /* Pods-KURSOVAYA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KURSOVAYA.release.xcconfig"; path = "Target Support Files/Pods-KURSOVAYA/Pods-KURSOVAYA.release.xcconfig"; sourceTree = "<group>"; };
+		B921A02E455FB04A00C3091E /* Pods-KURSOVAYA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KURSOVAYA.debug.xcconfig"; path = "Target Support Files/Pods-KURSOVAYA/Pods-KURSOVAYA.debug.xcconfig"; sourceTree = "<group>"; };
+		C4BA83283720436B3FE41560 /* Pods_KURSOVAYA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KURSOVAYA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B4379561CE8AB11D1049EAF /* Pods_KURSOVAYA.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +82,8 @@
 			children = (
 				2754579425A2362E00885D71 /* KURSOVAYA */,
 				2754579325A2362E00885D71 /* Products */,
+				355EBDE0599D0CC5EC7E52FA /* Pods */,
+				FF8FB51F7689BAA81A96C8E7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +98,7 @@
 		2754579425A2362E00885D71 /* KURSOVAYA */ = {
 			isa = PBXGroup;
 			children = (
+				275457C225A2537A00885D71 /* IosSecuritySuite */,
 				2754579525A2362E00885D71 /* AppDelegate.swift */,
 				2754579725A2362E00885D71 /* SceneDelegate.swift */,
 				2754579925A2362E00885D71 /* ViewController.swift */,
@@ -63,8 +106,50 @@
 				2754579E25A2363000885D71 /* Assets.xcassets */,
 				275457A025A2363000885D71 /* LaunchScreen.storyboard */,
 				275457A325A2363000885D71 /* Info.plist */,
+				275457C825A2665A00885D71 /* NetworkManager.swift */,
+				275457CB25A2669C00885D71 /* ModelUser.swift */,
+				275457CE25A266E800885D71 /* VulnerabilityCheckViewController.swift */,
+				275457D825A3571400885D71 /* LoginViewController.swift */,
+				275457DB25A37BD100885D71 /* RegisterViewController.swift */,
+				275457DE25A37E6B00885D71 /* UsersTableViewController.swift */,
+				275457E125A3909900885D71 /* UserTableViewCell.swift */,
 			);
 			path = KURSOVAYA;
+			sourceTree = "<group>";
+		};
+		275457C225A2537A00885D71 /* IosSecuritySuite */ = {
+			isa = PBXGroup;
+			children = (
+				275457AD25A236B600885D71 /* DebuggerChecker.swift */,
+				275457B225A236B600885D71 /* EmulatorChecker.swift */,
+				275457B025A236B600885D71 /* FishHookChecker.swift */,
+				275457B125A236B600885D71 /* IntegrityChecker.swift */,
+				275457AF25A236B600885D71 /* IOSSecuritySuite.h */,
+				275457AE25A236B600885D71 /* IOSSecuritySuite.swift */,
+				275457B325A236B600885D71 /* JailbreakChecker.swift */,
+				275457B425A236B700885D71 /* MSHookFunctionChecker.swift */,
+				275457AA25A236B500885D71 /* ProxyChecker.swift */,
+				275457AB25A236B500885D71 /* ReverseEngineeringToolsChecker.swift */,
+				275457AC25A236B600885D71 /* RuntimeHookChecker.swift */,
+			);
+			path = IosSecuritySuite;
+			sourceTree = "<group>";
+		};
+		355EBDE0599D0CC5EC7E52FA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B921A02E455FB04A00C3091E /* Pods-KURSOVAYA.debug.xcconfig */,
+				A4AE0EC4D861973AB4DDE2F9 /* Pods-KURSOVAYA.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		FF8FB51F7689BAA81A96C8E7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C4BA83283720436B3FE41560 /* Pods_KURSOVAYA.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +159,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 275457A625A2363000885D71 /* Build configuration list for PBXNativeTarget "KURSOVAYA" */;
 			buildPhases = (
+				FFDDD698A978D08BF8AD6422 /* [CP] Check Pods Manifest.lock */,
 				2754578E25A2362E00885D71 /* Sources */,
 				2754578F25A2362E00885D71 /* Frameworks */,
 				2754579025A2362E00885D71 /* Resources */,
+				15236E17E42166E045ECE680 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,14 +219,73 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		15236E17E42166E045ECE680 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KURSOVAYA/Pods-KURSOVAYA-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-KURSOVAYA/Pods-KURSOVAYA-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-KURSOVAYA/Pods-KURSOVAYA-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFDDD698A978D08BF8AD6422 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-KURSOVAYA-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2754578E25A2362E00885D71 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				275457B525A236B700885D71 /* ProxyChecker.swift in Sources */,
 				2754579A25A2362E00885D71 /* ViewController.swift in Sources */,
+				275457BA25A236B700885D71 /* FishHookChecker.swift in Sources */,
+				275457BC25A236B700885D71 /* EmulatorChecker.swift in Sources */,
+				275457E225A3909900885D71 /* UserTableViewCell.swift in Sources */,
+				275457DF25A37E6B00885D71 /* UsersTableViewController.swift in Sources */,
+				275457BB25A236B700885D71 /* IntegrityChecker.swift in Sources */,
 				2754579625A2362E00885D71 /* AppDelegate.swift in Sources */,
+				275457B625A236B700885D71 /* ReverseEngineeringToolsChecker.swift in Sources */,
+				275457B825A236B700885D71 /* DebuggerChecker.swift in Sources */,
+				275457CF25A266E800885D71 /* VulnerabilityCheckViewController.swift in Sources */,
+				275457DC25A37BD200885D71 /* RegisterViewController.swift in Sources */,
 				2754579825A2362E00885D71 /* SceneDelegate.swift in Sources */,
+				275457BE25A236B700885D71 /* MSHookFunctionChecker.swift in Sources */,
+				275457C925A2665A00885D71 /* NetworkManager.swift in Sources */,
+				275457B925A236B700885D71 /* IOSSecuritySuite.swift in Sources */,
+				275457D925A3571400885D71 /* LoginViewController.swift in Sources */,
+				275457CC25A2669C00885D71 /* ModelUser.swift in Sources */,
+				275457B725A236B700885D71 /* RuntimeHookChecker.swift in Sources */,
+				275457BD25A236B700885D71 /* JailbreakChecker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,6 +429,7 @@
 		};
 		275457A725A2363000885D71 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B921A02E455FB04A00C3091E /* Pods-KURSOVAYA.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -302,6 +449,7 @@
 		};
 		275457A825A2363000885D71 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A4AE0EC4D861973AB4DDE2F9 /* Pods-KURSOVAYA.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
