@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		2754579625A2362E00885D71 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2754579525A2362E00885D71 /* AppDelegate.swift */; };
 		2754579825A2362E00885D71 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2754579725A2362E00885D71 /* SceneDelegate.swift */; };
-		2754579A25A2362E00885D71 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2754579925A2362E00885D71 /* ViewController.swift */; };
 		2754579D25A2362E00885D71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2754579B25A2362E00885D71 /* Main.storyboard */; };
 		2754579F25A2363000885D71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2754579E25A2363000885D71 /* Assets.xcassets */; };
 		275457A225A2363000885D71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 275457A025A2363000885D71 /* LaunchScreen.storyboard */; };
@@ -30,6 +29,7 @@
 		275457DC25A37BD200885D71 /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275457DB25A37BD100885D71 /* RegisterViewController.swift */; };
 		275457DF25A37E6B00885D71 /* UsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275457DE25A37E6B00885D71 /* UsersTableViewController.swift */; };
 		275457E225A3909900885D71 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 275457E125A3909900885D71 /* UserTableViewCell.swift */; };
+		275457E925A8F99A00885D71 /* snicloudflaresslcom_cert_out.der in Resources */ = {isa = PBXBuildFile; fileRef = 275457E825A8F99A00885D71 /* snicloudflaresslcom_cert_out.der */; };
 		5B4379561CE8AB11D1049EAF /* Pods_KURSOVAYA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C4BA83283720436B3FE41560 /* Pods_KURSOVAYA.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,7 +37,6 @@
 		2754579225A2362E00885D71 /* KURSOVAYA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KURSOVAYA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2754579525A2362E00885D71 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2754579725A2362E00885D71 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2754579925A2362E00885D71 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2754579C25A2362E00885D71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2754579E25A2363000885D71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		275457A125A2363000885D71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,6 +59,7 @@
 		275457DB25A37BD100885D71 /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		275457DE25A37E6B00885D71 /* UsersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsersTableViewController.swift; sourceTree = "<group>"; };
 		275457E125A3909900885D71 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		275457E825A8F99A00885D71 /* snicloudflaresslcom_cert_out.der */ = {isa = PBXFileReference; lastKnownFileType = file; path = snicloudflaresslcom_cert_out.der; sourceTree = SOURCE_ROOT; };
 		A4AE0EC4D861973AB4DDE2F9 /* Pods-KURSOVAYA.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KURSOVAYA.release.xcconfig"; path = "Target Support Files/Pods-KURSOVAYA/Pods-KURSOVAYA.release.xcconfig"; sourceTree = "<group>"; };
 		B921A02E455FB04A00C3091E /* Pods-KURSOVAYA.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KURSOVAYA.debug.xcconfig"; path = "Target Support Files/Pods-KURSOVAYA/Pods-KURSOVAYA.debug.xcconfig"; sourceTree = "<group>"; };
 		C4BA83283720436B3FE41560 /* Pods_KURSOVAYA.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KURSOVAYA.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -98,10 +98,10 @@
 		2754579425A2362E00885D71 /* KURSOVAYA */ = {
 			isa = PBXGroup;
 			children = (
+				275457E825A8F99A00885D71 /* snicloudflaresslcom_cert_out.der */,
 				275457C225A2537A00885D71 /* IosSecuritySuite */,
 				2754579525A2362E00885D71 /* AppDelegate.swift */,
 				2754579725A2362E00885D71 /* SceneDelegate.swift */,
-				2754579925A2362E00885D71 /* ViewController.swift */,
 				2754579B25A2362E00885D71 /* Main.storyboard */,
 				2754579E25A2363000885D71 /* Assets.xcassets */,
 				275457A025A2363000885D71 /* LaunchScreen.storyboard */,
@@ -213,6 +213,7 @@
 			files = (
 				275457A225A2363000885D71 /* LaunchScreen.storyboard in Resources */,
 				2754579F25A2363000885D71 /* Assets.xcassets in Resources */,
+				275457E925A8F99A00885D71 /* snicloudflaresslcom_cert_out.der in Resources */,
 				2754579D25A2362E00885D71 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,7 +268,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				275457B525A236B700885D71 /* ProxyChecker.swift in Sources */,
-				2754579A25A2362E00885D71 /* ViewController.swift in Sources */,
 				275457BA25A236B700885D71 /* FishHookChecker.swift in Sources */,
 				275457BC25A236B700885D71 /* EmulatorChecker.swift in Sources */,
 				275457E225A3909900885D71 /* UserTableViewCell.swift in Sources */,

@@ -1,16 +1,20 @@
 PODS:
   - Alamofire (5.4.1)
+  - Locksmith (4.0.0)
 
 DEPENDENCIES:
   - Alamofire (~> 5.2)
+  - Locksmith
 
 SPEC REPOS:
   trunk:
     - Alamofire
+    - Locksmith
 
 SPEC CHECKSUMS:
   Alamofire: 2291f7d21ca607c491dd17642e5d40fdcda0e65c
+  Locksmith: e9bebbaaa4cee3c511bc358a44f843c3fe00e21f
 
-PODFILE CHECKSUM: f88647fe8b3152fddd85af45171efcb410a20c98
+PODFILE CHECKSUM: c306d3148f4d479307971bea2dccf535a8645ab1
 
 COCOAPODS: 1.8.4

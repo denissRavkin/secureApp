@@ -6,5 +6,6 @@ target 'KURSOVAYA' do
   use_frameworks!
 
   pod 'Alamofire', '~> 5.2'
+  pod 'Locksmith'
 
 end

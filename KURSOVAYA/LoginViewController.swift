@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Locksmith
 
 class LoginViewController: UIViewController {
 
@@ -21,7 +22,21 @@ class LoginViewController: UIViewController {
     
     
     @IBAction func enter() {
-        //performSegue(withIdentifier: "toUsersTableVC", sender: nil)
+        
+        guard let login = loginTF.text, let password = passwordTF.text else { return }
+        
+        let userDictionary = Locksmith.loadDataForUserAccount(userAccount: login)
+        print("login-\(login)")
+        if userDictionary == nil {
+            presentAlertController(with: "", message: "неверный логин")
+            return
+        }
+        
+        guard let userDict = userDictionary else { return }
+        
+        if userDict["password"] as! String == password {
+            performSegue(withIdentifier: "toUsersTableVC", sender: nil)
+        }
         
     }
     
@@ -60,5 +75,15 @@ extension LoginViewController: UITextFieldDelegate {
         }
         
         return true
+    }
+}
+
+extension LoginViewController {
+    func presentAlertController(with title: String, message: String) {
+        let alertC = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        DispatchQueue.main.async {
+            alertC.addAction(.init(title: "OK", style: .cancel, handler: nil))
+            self.present(alertC, animated: true, completion: nil)
+        }
     }
 }

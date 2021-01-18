@@ -22,7 +22,7 @@ enum Router: URLRequestConvertible {
 }
 
 final class NetworkClient {
-  // 1
+  
   let evaluators = [
     "jsonplaceholder.typicode.com":
       PinnedCertificatesTrustEvaluator(certificates: [
@@ -32,14 +32,11 @@ final class NetworkClient {
   
   let session: Session
   
-  // 2
   private init() {
     session = Session(
       serverTrustManager: ServerTrustManager(evaluators: evaluators)
     )
   }
-  
-  // MARK: - Static Definitions
   
   private static let shared = NetworkClient()
   
